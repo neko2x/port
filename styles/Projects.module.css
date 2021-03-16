@@ -1,0 +1,74 @@
+#container{
+    background: rgb(13, 18, 27);
+    padding-bottom: 7vh;
+   
+}
+#ProjectContainer{
+    background-color: rgb(233, 229, 229);
+    border-radius: 3%;
+    
+}
+#imgProject{
+    width: 80%;
+    margin-left:10%;
+    margin-top: 3%;
+    height: 30vh;
+    border-radius: 5%;
+    
+}
+#btnGit{
+    background-color: rgb(13, 18, 27);
+    color: white;
+    margin: 2%;
+    margin-left:10%;
+    
+    transition: all 0.4s ease 0s;
+    
+}
+#btnGit:hover{
+    border:1px solid rgb(13, 18, 27);
+    background-color: white;
+    color: rgb(13, 18, 27);
+    transform: scale(1.01);
+}
+#h2{
+    margin-left:10%;
+    color: rgb(13, 18, 27);
+}
+#live{
+    transition: all 0.4s ease 0s; 
+}
+#live:hover{
+    border:1px solid rgb(13, 18, 27);
+    background-color: white;
+    color: rgb(13, 18, 27);
+    transform: scale(1.01);
+}
+
+#btnAllProjects{
+    background-color: rgb(233, 229, 229);
+
+    color: rgb(13, 18, 27);
+    transition: all 0.4s ease 0s; 
+}
+#btnAllProjects:hover{
+    background-color:  rgb(13, 18, 27);
+    border: 2px solid white;
+    transform: scale(1.1);
+    color:white;
+}
+
+@media only screen and (max-width: 1200px) {
+    #imgProject{
+        width: 90%;
+       margin-left: 5%;
+     
+    }
+  }
+@media only screen and (max-width: 767px) {
+    #imgProject{
+        width: 100%;
+       margin-left: 0px;
+     
+    }
+  }

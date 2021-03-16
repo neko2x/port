@@ -1,0 +1,36 @@
+#d{
+    padding: 2%  0;
+    background-color: rgb(233, 229, 229);
+    
+} 
+
+
+#maturska{
+    width:60%;
+   float:right;
+   margin-right: 10%;
+    border-radius: 2%;
+}
+#medresa,
+#fax{
+    width:7%;
+}
+
+
+
+@media only screen and (max-width: 991px) {
+    
+    #maturska{
+        width: 40%;
+      margin-right: 25%;
+       padding-bottom: 5%;
+        
+    }
+    #changeOrder1{
+        order:1;
+    }
+    #changeOrder2{
+        order:2;
+    }
+    
+  }

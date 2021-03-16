@@ -1,0 +1,29 @@
+#d{
+    padding: 2%  0;
+    background-color: rgb(233, 229, 229);
+    
+}
+#firstDiv{
+    margin: auto;
+}
+.contactIcons{
+    text-decoration: none;
+    color:black;
+    width:10%;
+    margin: 3%;
+
+}
+.contactIcons:hover{
+  color:rgb(10, 59, 150);
+  width: 12%;
+  transition: all 0.3s ease 0s;
+}
+
+#btnBg{
+    background: rgb(13, 18, 27);
+}
+#btnBg:hover{
+
+    background: rgb(10, 59, 150);
+    border:1px solid rgb(10, 59, 150);
+}

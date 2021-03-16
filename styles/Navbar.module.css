@@ -1,0 +1,44 @@
+#nav{
+   position: fixed;
+    width:100%;
+    background-color: none;
+    
+    z-index: 1;
+  
+  
+    
+}
+#navbg{
+    position: fixed;
+    width:100%;
+    background-color: rgba(13, 18, 27,0.9);
+    z-index: 200;
+    transition: all 0.9s ease 0s;
+}
+#cw{
+    color:white;
+    text-decoration: none;
+    transition: all 0.4s ease 0s;
+    
+}
+#cw:hover{
+    text-shadow: black;
+    font-size: 110%;
+    border-bottom: 2px solid white;
+    cursor:pointer;
+
+
+}
+
+
+
+@media only screen and (max-width: 991px) {
+    #cw:hover{
+       
+       border-bottom: 0px;
+        
+    }
+ 
+
+  }
+

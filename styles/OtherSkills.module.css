@@ -1,0 +1,60 @@
+
+  #diamondshape {
+    background: rgb(13, 18, 27);
+    height: 13vh;
+    text-align: center;
+    transform:rotate(45deg);
+      width:13vh;
+      border-radius: 5%;
+      margin-left: auto;
+      margin-right: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: all 0.5s ease 0s;
+  }
+
+
+  .itemcount {
+    color: white;
+    display: table-cell;
+    height: 7vh;
+    transform: rotate(-45deg);
+    vertical-align: middle;
+      width:7vh;
+   
+  
+  }
+  
+
+  #diamondshape:hover .itemcount {
+    width:8vh;
+    height: 8vh;
+      color: rgb(13, 18, 27);
+     
+      transition: all 0.4s ease 0s;
+   
+      
+  }
+
+  #diamondshape:hover{
+    width:15vh;
+    height: 15vh;
+    background: white;
+    border:5px solid rgb(13, 18, 27);
+    
+  
+  
+  }
+  #h2{
+      margin-top: 3vh;
+  }
+
+  @media only screen and (max-width: 991px) {
+    .shapesection {
+        margin-top: 10%;
+    }
+ 
+
+  }
+

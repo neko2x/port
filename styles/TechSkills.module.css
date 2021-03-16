@@ -1,0 +1,112 @@
+#maindiv{
+
+ 
+    width: 100%;
+    min-height: 500px;
+    background-image: url('../public/photo/laptop2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-attachment: fixed;
+
+}
+
+  
+  #diamondshape {
+    background: white;
+    height: 10vh;
+    text-align: center;
+    transform:rotate(45deg);
+      width:10vh;
+      border-radius: 5%;
+      margin-left: auto;
+      margin-right: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: all 0.5s ease 0s;
+  }
+
+
+  .itemcount {
+    color: rgb(13, 18, 27);
+    display: table-cell;
+    height: 5vh;
+    transform: rotate(-45deg);
+    vertical-align: middle;
+      width:5vh;
+   
+  
+  }
+  
+
+  #diamondshape:hover .itemcount {
+    width:6vh;
+    height: 6vh;
+      color: white;
+     
+      transition: all 0.4s ease 0s;
+  }
+
+  #diamondshape:hover{
+    width:12vh;
+    height: 12vh;
+    background: rgb(13, 18, 27);
+    border:5px solid white;
+    
+
+
+  }
+  #h2{
+      margin-top: 3vh;
+      color: white;
+     
+     
+  }
+  #h1{
+      color: white;
+  }
+
+  @media only screen and (max-width: 991px) {
+    .shapesection {
+        margin-top: 10%;
+    }
+ 
+
+  }
+  @media only screen and (max-width: 500px) {
+  
+    #diamondshape {
+
+        height: 7.5vh;
+          width:7.5vh;
+  
+      }
+    
+    
+      .itemcount {
+
+        height: 3.5vh;
+          width:3.5vh;
+       
+      
+      }
+      
+    
+      #diamondshape:hover .itemcount {
+        width:4.5vh;
+        height: 4.5vh;
+
+      }
+    
+      #diamondshape:hover{
+        width:8vh;
+        height: 8vh;
+    
+    
+      }
+
+  }
+
+
+
