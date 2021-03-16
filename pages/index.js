@@ -11,7 +11,7 @@ import AOS from 'aos'
 import 'aos/dist/aos.css'
 import {useState,useEffect} from 'react'
 
-const prefix="/port";
+const prefix=process.env. NEXT_PUBLIC_BASE_PATH || '';
 
 export default function Home() {
   const [show,setShow]=useState(false);

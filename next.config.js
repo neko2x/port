@@ -6,8 +6,8 @@ const withVideos=require('next-videos')
 // module.exports=withVideos({});
 
 module.exports=withImages(withVideos({
-    basePath:'/port',
-    assetPrefix:'/port'
+    basePath:process.env. NEXT_PUBLIC_BASE_PATH,
+    assetPrefix:process.env. NEXT_PUBLIC_BASE_PATH
 }));
 
 

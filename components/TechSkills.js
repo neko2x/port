@@ -16,14 +16,14 @@ const TechSkills = ({show}) => {
                 <div  className={show==false?  " col-lg-12 col-md-12 d-flex mb-5":  " col-lg-6 col-md-12 d-block"} >
 
 
-                    <div className=" col-lg-6 d-flex justify-content-around" id={styles.div3} data-aos="fade-right">
+                    <div className=" col-lg-6 d-flex justify-content-around" id={styles.div3} data-aos="fade-up">
                     <Skill icon={["fab", "cuttlefish"]} text="C++"/>
               
                     <Skill icon={["fab", "php"]} text="Php"/>
            
                     <Skill icon={["fab", "java"]} text="Java"/>
                     </div>
-                    <div className="col-lg-6 d-flex justify-content-around" id={styles.div3} data-aos="fade-left">
+                    <div className="col-lg-6 d-flex justify-content-around" id={styles.div3} data-aos="fade-up">
                     <Skill icon={["fab", "js"]} text="JavaScript"/>
                
                     <Skill icon={["fas", "file"]} text="Spring Boot"/>
@@ -38,7 +38,7 @@ const TechSkills = ({show}) => {
                 <div className={show==false?  " col-lg-12 col-md-12 d-flex mb-5":  " col-lg-6 col-md-12 d-block"}>
 
 
-                <div className="col-lg-6 d-flex  justify-content-around" id={styles.div3} data-aos="fade-right">
+                <div className="col-lg-6 d-flex  justify-content-around" id={styles.div3} data-aos="fade-up">
                
                     <Skill icon={["fas", "database"]} text="MySQL"/>
                
@@ -47,7 +47,7 @@ const TechSkills = ({show}) => {
                 <Skill icon={["fab", "css3"]} text="CSS"/>
                 </div>
 
-                <div className="col-lg-6  d-flex  justify-content-around" id={styles.div3} data-aos="fade-left">
+                <div className="col-lg-6  d-flex  justify-content-around" id={styles.div3} data-aos="fade-up">
 
                 <Skill icon={["fab", "react"]} text="React"/>
     
