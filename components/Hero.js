@@ -3,7 +3,7 @@ import video from '../public/video/vid.mp4'
 import styles from '../styles/Hero.module.css'
 
 
-const Hero = () => {
+const Hero = ({prefix}) => {
     useEffect(() => {
         showText();
     }, [])
