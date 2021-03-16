@@ -10,6 +10,9 @@ import Navbar from '../components/Navbar'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import {useState,useEffect} from 'react'
+
+const prefix="/port";
+
 export default function Home() {
   const [show,setShow]=useState(false);
   const shows=()=>{
@@ -36,16 +39,16 @@ useEffect(() => {
         }
   return (
     <div >
-             <Navbar show={show}/>
+             <Navbar show={show} />
             
           <section id="hero">
-            <Hero/>
+            <Hero prefix={prefix}/>
             </section>
             <section id="about">
           <About/>
           </section>
-          <section id="skills">
-          <Skills show={show}/>
+          <section id="skills" >
+          <Skills show={show} />
           </section>
           <section id="projects" >
           <Projects/>
