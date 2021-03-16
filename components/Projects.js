@@ -29,7 +29,7 @@ export function Projects() {
       id: 2,
       text: 'Almy beton - Next.js',
       photo:almybeton,
-      path:"https://www.almybeton.ba/",
+      path:"",
       url:"https://www.almybeton.ba/"
     },
     {
