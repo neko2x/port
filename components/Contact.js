@@ -44,7 +44,7 @@ const Contact = () => {
                
                <div className="form-group pt-2">
                   <b> <label htmlFor="" className="mb-1">Your name:</label></b>
-                   <input type="text" className="form-control"  placeholder="Enter your name" name="name" required autoFocus />
+                   <input type="text" className="form-control"  placeholder="Enter your name" name="name" required  />
                    
                </div>
                <div className="form-group pt-2">
