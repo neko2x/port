@@ -13,10 +13,7 @@ const About = () => {
                     <img src={maturska} id={styles.maturska}  alt=""/>
                     </div>
                     <div className="col-sm-12 col-lg-8    " id={styles.changeOrder1}>
-                        <h6><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam accusamus nisi 
-                            reiciendis natus quasi pariatur, soluta quas accusantium consectetur laborum 
-                            consequuntur libero distinctio aspernatur illo eius. Maxime voluptatibus doloribus
-                             eum.</p></h6>
+                        <h6><p>Hello, my name is Šemsudin Bešo. I'm final year Software engineering student and I'm passionate about everything related to web development. It is my pleasure to work on the new projects, I enjoy learning and adapt well to the new techniques and challenges. Traveling is one of my favorite hobbies, because it involves adventure, excitement and fun.</p></h6>
                              
                              <h2>Education</h2>
                              <h5><img src={fax} alt="" id={styles.fax}/> Software Engineering - Politehnic Faculty Zenica </h5>
