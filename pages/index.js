@@ -41,7 +41,7 @@ useEffect(() => {
     <div >
              <Navbar show={show} />
             
-          <section id="hero" name="hero" required autoFocus="autofocus">
+          <section id="hero" name="hero" >
             <Hero prefix={prefix}/>
             </section>
             <section id="about" name="about">

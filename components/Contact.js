@@ -44,18 +44,18 @@ const Contact = () => {
                
                <div className="form-group pt-2">
                   <b> <label htmlFor="" className="mb-1">Your name:</label></b>
-                   <input type="text" className="form-control"  placeholder="Enter your name" name="name" required autoFocus="autofocus"/>
+                   <input type="text" className="form-control"  placeholder="Enter your name" name="name" required autoFocus />
                    
                </div>
                <div className="form-group pt-2">
                <b> <label htmlFor="" className="mb-1">Subject:</label></b>
-                   <input type="text"  placeholder="Enter subject" className="form-control"   name="subject" required autoFocus="autofocus"/>
+                   <input type="text"  placeholder="Enter subject" className="form-control"   name="subject" required autoFocus/>
                    
                </div>
 
                <div className="form-group pt-2">
                <b> <label htmlFor="" className="mb-1">Your email:</label></b>
-                   <input type="email"  placeholder="Enter your email" className="form-control"   name="email" required autoFocus="autofocus"/>
+                   <input type="email"  placeholder="Enter your email" className="form-control"   name="email" required autoFocus/>
                    
                </div>
 
