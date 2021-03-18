@@ -21,7 +21,7 @@ const Contact = () => {
                 <div className="row ">
                     <div className="col-lg-4 col-sm-12 text-center"  id={styles.firstDiv}>
                         <h4>Feel free to contact me </h4>
-                        <h6>I am allways looking forward to start projects with you!</h6>
+                        <h6>I am allways looking forward to start projects with You!</h6>
                         <a  href="https://www.linkedin.com/in/semsudin-beso-b1a314185/" target="_blank">
                              <FontAwesomeIcon icon={["fab", "linkedin"]} className={styles.contactIcons} />
                             </a>

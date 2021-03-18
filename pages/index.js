@@ -31,7 +31,8 @@ useEffect(() => {
    
     offset: 100,
   });  
-  shows()
+  shows();
+  window.scrollTo(0, 0);
 }, [])
   if (process.browser) {
     window.addEventListener('resize',shows);

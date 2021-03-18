@@ -19,7 +19,7 @@ const About = () => {
                              eum.</p></h6>
                              
                              <h2>Education</h2>
-                             <h5><img src={fax} alt="" id={styles.fax}/> Software Engineering - Politehnical Faculty Zenica </h5>
+                             <h5><img src={fax} alt="" id={styles.fax}/> Software Engineering - Politehnic Faculty Zenica </h5>
                              <h5>2018 - Present</h5>
                              <hr/>
                              <h5><img src={medresa} alt="" id={styles.medresa}/> Elči Ibrahim-pašina medresa - High school in Travnik</h5>
