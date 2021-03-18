@@ -82,7 +82,7 @@ export function Projects() {
       <div id={styles.container}>
               
     <div className="container " data-aos="fade-up" >
-    <h1 className=" text-light pt-4 pb-3">Projects</h1>
+    <h1 className=" text-light text-center pt-4 pb-3">Projects</h1>
       <div className="row p-3 " id={styles.ProjectContainer}>
         <Swiper
           className="col-lg-12 col-md-10 col-sm-11 "
