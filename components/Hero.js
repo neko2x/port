@@ -1,3 +1,4 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { useEffect } from 'react';
 import video from '../public/video/vid.mp4'
 import styles from '../styles/Hero.module.css'
@@ -29,7 +30,7 @@ const Hero = ({prefix}) => {
             <div className="d-flex justify-content-center" id={styles.forText}> <h1 className="text-light text-center" id="text"> </h1></div>
             
             <div className="d-flex justify-content-center">
-            <a href="#about" id={styles.btn} className="btn btn-light mt-4 ">Meet me</a>
+            <a href="#about" id={styles.btn} className="btn btn-light mt-4 "> <FontAwesomeIcon style={{width:"15px",marginBottom:'2px'}}   icon={["fas", "user-tie"]} />  Meet me</a>
             </div>   
           <video autoPlay loop muted  className={styles.video}>
    
