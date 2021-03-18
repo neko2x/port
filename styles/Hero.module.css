@@ -7,12 +7,12 @@
 #btn{
     transition: all 0.4s ease 0s;
 }
-/* #btn:hover{
+#btn:hover{
     border:1px solid white;
     color: white;
     background-color: rgb(13, 18, 27);
     transform: scale(1.2);
-} */
+}
 .video{
     position: absolute;
     top: 0;
@@ -34,6 +34,15 @@
         padding-left: 10%;
         padding-right: 10%;
      }
+     #d{
+        background-image: url('../public/photo/lap.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .video{
+        display: none;
+    }
+
  
 
   }
@@ -43,6 +52,6 @@
         padding-left: 5%;
         padding-right: 5%;
      }
- 
+
 
   }
