@@ -41,19 +41,19 @@ useEffect(() => {
     <div >
              <Navbar show={show} />
             
-          <section id="hero">
+          <section id="hero" name="hero">
             <Hero prefix={prefix}/>
             </section>
-            <section id="about">
+            <section id="about" name="about">
           <About/>
           </section>
-          <section id="skills" >
+          <section id="skills" name="skills" >
           <Skills show={show} />
           </section>
-          <section id="projects" >
+          <section id="projects"  name="projects">
           <Projects/>
           </section>
-          <section id="contact" >
+          <section id="contact" name="contact">
           <Contact/>
           </section>
       <Footer/>
