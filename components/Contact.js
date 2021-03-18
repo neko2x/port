@@ -49,19 +49,19 @@ const Contact = () => {
                </div>
                <div className="form-group pt-2">
                <b> <label htmlFor="" className="mb-1">Subject:</label></b>
-                   <input type="text"  placeholder="Enter subject" className="form-control"   name="subject" required />
+                   <input type="text"  placeholder="Enter subject" className="form-control"   name="subject" autoFocus/>
                    
                </div>
 
                <div className="form-group pt-2">
                <b> <label htmlFor="" className="mb-1">Your email:</label></b>
-                   <input type="email"  placeholder="Enter your email" className="form-control"   name="email" required />
+                   <input type="email"  placeholder="Enter your email" className="form-control"   name="email" autoFocus />
                    
                </div>
 
                <div className="form-group pt-2">
                <b> <label htmlFor="" className="mb-1">Your message:</label></b>
-                  <textarea placeholder="Enter your message" cols="30" rows="8" className="form-control" name="message" required/>
+                  <textarea placeholder="Enter your message" cols="30" rows="8" className="form-control" name="message" autoFocus/>
                  
                </div>
         
