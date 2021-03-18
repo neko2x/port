@@ -9,7 +9,7 @@ import Meta from "./Meta"
 const Layout = ({children}) => {
     return (
       <>
-        <Meta title="Šemsudin Bešo - Profile"/>
+        <Meta title="Šemsudin Bešo"/>
       
       
  
