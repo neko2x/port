@@ -12,6 +12,7 @@ import 'swiper/swiper-bundle.css';
 
 
 import Project from './Project';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 
 
@@ -25,13 +26,13 @@ export function Projects() {
       path:"https://github.com/BesoSE/OnlineStore",
       url:""
     },
-    {
-      id: 2,
-      text: 'Almy beton - Next.js',
-      photo:almybeton,
-      path:"",
-      url:"https://www.almybeton.ba/"
-    },
+    // {
+    //   id: 2,
+    //   text: 'Almy beton - Next.js',
+    //   photo:almybeton,
+    //   path:"",
+    //   url:"https://www.almybeton.ba/"
+    // },
     {
       id: 3,
       text: 'Game words - Java script',
@@ -108,7 +109,9 @@ export function Projects() {
   
     </div>
     <div className="d-flex justify-content-center mt-4">
-    <a href="https://github.com/BesoSE?tab=repositories" className="btn  btn-default" id={styles.btnAllProjects} target="_blank">View my projects</a>
+    <a href="https://github.com/BesoSE?tab=repositories" className="btn  btn-default" id={styles.btnAllProjects} target="_blank">
+    <FontAwesomeIcon style={{width:"25px"}}   icon={["fab", "github"]} />   View my projects</a>
+    
 </div>
  
     </div>

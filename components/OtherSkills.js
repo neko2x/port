@@ -26,7 +26,7 @@ const OtherSkills = ({show}) => {
                    <OtherSkill icon={["fas", "handshake"]} text="Loyal"/>
                    </div>
                <div className="col-lg-2 ">
-                   <OtherSkill icon={["fas", "handshake"]} text="Loyal"/> 
+                   <OtherSkill icon={["fas", "puzzle-piece"]} text="Problem solving"/> 
            
                    </div>
                    <div className="col-xl-1 col-lg-0"></div>

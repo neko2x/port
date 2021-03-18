@@ -8,6 +8,7 @@
     background-repeat: no-repeat;
     background-position-y: center;
     background-attachment: fixed;
+    overflow-x: hidden;
 
 }
 
