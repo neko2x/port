@@ -54,7 +54,7 @@ window.addEventListener("scroll",onScrollChangeBg);
             <Nav className="ms-auto">
            
                
-           {show ? <Navbar.Toggle className="border-0 " onClick={closeMobileMenu} href="#about" aria-controls="navbar-toggle" >  
+           {show ? <Navbar.Toggle className="border-0 " onClick={closeMobileMenu} aria-controls="navbar-toggle" >  
            <Nav.Link   className="text-center text-light" href="#about"  id={styles.cw} >About me</Nav.Link>
             </Navbar.Toggle> : 
            <Nav.Link   className="text-center text-light" href="#about"  id={styles.cw}>    About me</Nav.Link>
